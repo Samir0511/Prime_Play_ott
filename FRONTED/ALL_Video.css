@@ -1,0 +1,192 @@
+.container_Main {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+
+}
+
+.container_Main .card_Outer {
+  position: relative;
+}
+
+.container_Main .card_Outer .face_ {
+  width: 450px;
+  height: 275px;
+  transition: .4s;
+  max-width: 80%;
+  margin-left: 10%;
+
+}
+
+.container_Main .card_Outer .face_.face1_ {
+  position: relative;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container_Main .card_Outer:hover .face_.face1_ {
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0 60px whitesmoke,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px rgb(0, 255, 128),
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px rgb(0, 255, 128),
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px rgb(0, 255, 128);
+  filter: contrast(120%);
+
+}
+
+
+.container_Main .card_Outer .face_.face1_ .content_of_box {
+  opacity: 1;
+  transition: 0.5s;
+  text-align: center;
+  justify-items: center;
+
+
+
+
+}
+
+.container_Main .card_Outer .face_.face1_ .content_of_box img {
+
+  width: 362px;
+  height: 275px;
+
+}
+
+.container_Main .card_Outer:hover .face_.face1_ .content_of_box {
+  opacity: 1;
+
+}
+
+.container_Main .card_Outer .face_.face1_ .content_of_box i {
+  font-size: 3em;
+  color: white;
+  display: inline-block;
+
+}
+
+.container_Main .card_Outer .face_.face1_ .content_of_box h3 {
+  font-size: 1em;
+  color: white;
+  text-align: center;
+
+
+}
+
+.container_Main .card_Outer .face_.face1_ .content_of_box a {
+  transition: .5s;
+}
+
+.container_Main .card_Outer .face_.face2_ {
+  position: relative;
+  background: whitesmoke;
+  display: flex;
+  padding: 10px;
+  padding-top: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, .8);
+  transform: translateY(-100px);
+  overflow-y: auto scroll;
+  overflow-x: hidden;
+}
+
+.container_Main .card_Outer:hover .face_.face2_ {
+  transform: translateY(0);
+
+
+}
+
+.container_Main .card_Outer .face_.face2_ .content_of_box p,
+a {
+  font-size: 10pt;
+  margin: 0;
+  padding: 0;
+  color: #333;
+
+}
+
+.face_.face2_ .content_of_box {
+  font-size: 10pt;
+
+  color: #333;
+  float: left;
+}
+
+.container_Main .card_Outer .face_.face2_ .content_of_box a {
+  position: absolute;
+  text-decoration: none;
+height: auto;
+width: auto;
+  color: black;
+  box-sizing: border-box;
+  outline: 1px dashed #333;
+  padding: 10px;
+  
+  float: left;
+  left:10px;
+  bottom: 10px;
+  display: inline-block;
+}
+
+
+
+.container_Main .card_Outer .face_.face2_ .content_of_box p a {
+  float: right;
+  margin-top: 10%;
+}
+.container_Main .card_Outer .face_.face2_ .content_of_box p a:hover {
+transition: all 1s ease-in-out;
+}
+.fa-solid:hover {
+
+  color: rgb(255, 153, 0);
+}
+
+.container_Main .card_Outer .face_.face2_ .content_of_box a:hover {
+  background: #333;
+  color: whitesmoke;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.Quality {
+  border: 1px solid white;
+  position: absolute;
+  color: white;
+  padding: 10px;
+}
+
+
+.container_Main .card_Outer .face_.face1_ .content_of_box .save_later i:hover {
+
+color: rgb(255, 166, 0);
+}
+
+.save_later {
+  left: 92%;
+  font-size: 8px;
+  position: absolute;
+}
+
+.save_later i:focus {
+
+  color: rgb(255, 0, 0);
+
+}
+
+.icon-orange {
+  color: #ff0000;
+}

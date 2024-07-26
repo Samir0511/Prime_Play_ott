@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+
+}
+.main{
+	width: 30%;
+	height: 750px;
+	background: transparent;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px #000;
+}
+input[type=radio]#red {
+	accent-color: rgb(255, 0, 43);
+}
+  ::-webkit-input-placeholder{
+	color: red;
+
+  }
+  .gender input:checked ~ .male {
+color:red;
+  }
+#chk{
+	display: none;
+}
+.signup{
+	position: relative;
+	width:100%;
+	height: 100%;
+	background: linear-gradient(to right, red, orange, yellow);
+}
+label{
+	color: #fff;
+	font-size: 2.3em;
+	justify-content: center;
+	display: flex;
+	margin: 0;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+input{
+	width: 60%;
+	height: 20px;
+	background: #e0dede;
+	justify-content: center;
+	display: flex;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+button{
+	width: 60%;
+	height: 40px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.submit{
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+	width: 60%;
+	justify-self: center;
+	height: 45px;
+	margin: 10px 0px 25px;
+	background: #6d44b8;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login form input[type=submit]#sub1 {
+background-color: #24243e;
+margin-left: 20%;
+align-self: center;
+justify-content: center;
+justify-items: center;
+
+}
+
+
+button:hover{
+	background: #6d44b8;
+}
+
+table{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+}
+table {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+	color: #fff;
+}
+.login{
+	height: 800px;
+	background: #eee;
+	border-radius: 60% / 10%;
+	transform: translateY(-10%);
+	transition: .8s ease-in-out;
+    justify-content: center;
+    text-align: center;
+}
+.login label{
+	color: #573b8a;
+	transform: scale(.6);
+}
+
+#chk:checked ~ .login{
+	transform: translateY(-88%);
+}
+#chk:checked ~ .login label{
+	transform: scale(1);	
+}
+#chk:checked ~ .signup label{
+	transform: scale(.6);
+}
+.gradient {
+    background: linear-gradient(to right, #000000, #ffffff, #000000);
+    background-size: 200% 100%;
+    animation: gradient 3s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+  
+
+  
